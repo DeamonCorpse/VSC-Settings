@@ -1,6 +1,6 @@
 # VSC-Settings
 ## Font
-- [MesloLGS NF]([https://www.marksimonson.com/fonts/view/anonymous-pro](https://github.com/fontmgr/MesloLGSNF)
+- [MesloLGS NF](https://github.com/fontmgr/MesloLGSNF)
 
 ## Extensions
 - **Theme**:
