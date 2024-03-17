@@ -3,11 +3,11 @@
 - [MesloLGS NF]([https://www.marksimonson.com/fonts/view/anonymous-pro](https://github.com/fontmgr/MesloLGSNF))
 
 ## Extensions
-- Theme:
+- **Theme**:
   - Theme: [Andromeda (Italic Bordered)](https://marketplace.visualstudio.com/items?itemName=EliverLara.andromeda)
   - File icons: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
   - Product Icons: [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)
-- Editor Experience:
+- **Editor Experience**:
   - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
     * Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text
   - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
@@ -22,13 +22,20 @@
     * makes it easy to build, manage, and deploy containerized applications from VSC
   - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
     * Improve highlighting of errors, warnings and other language diagnostics
-- Languages and Libraries:
-  - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
-    * Support for dotenv file syntax
-  - [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
-    * Fully-featured TOML support
-  - [json](https://marketplace.visualstudio.com/items?itemName=ZainChen.json)
-    * Json for Visual Studio Code
+  - [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+    * Makes indentation easier to read
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+    * Code formatter using prettier
+- **Git**:
+  - [Gist Pad](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs)
+    * Manage your code snippets and developer notes using GitHub Gists and repositories
+  - [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
+    * Changes VS Code's built-in markdown preview to match GitHub
+  - [Github Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
+    * Remotely browse and edit any GitHub repository
+  - [Gitlab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
+    * Official GitLab-maintained extension for Visual Studio Code with prettier.
+- **Markdown**:
   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
     * All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
   - [Markdown CHeckboxes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-checkbox)
@@ -41,31 +48,20 @@
     * Changes VS Code's built-in markdown preview to match Github's style
   - [Markdown Mermaid Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
     * View Mermaid diagrams when previewing Markdown.
+  - [Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+    * Markdown linting and style checking for Visual Studio Code
+- **Misc Languages**:
+  - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+    * Support for dotenv file syntax
+  - [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
+    * Fully-featured TOML support
+  - [json](https://marketplace.visualstudio.com/items?itemName=ZainChen.json)
+    * Json for Visual Studio Code
   - [Nix](https://marketplace.visualstudio.com/items?itemName=bbenoist.Nix)
     * Nix language support for Visual Studio Code
   - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
     * YAML Language Support by Red Hat, with built-in Kubernetes syntax support
-- Tools:
-  - [Gist Pad](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs)
-    * Manage your code snippets and developer notes using GitHub Gists and repositories
-  - [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
-    * Changes VS Code's built-in markdown preview to match GitHub
-  - [Github Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
-    * Remotely browse and edit any GitHub repository
-  - [Gitlab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
-    * Official GitLab-maintained extension for Visual Studio Code with prettier.
-  - [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
-    * Makes indentation easier to read
-  - [Intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
-    * AI-assisted development
-  - [Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-    * Markdown linting and style checking for Visual Studio Code
-  - [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
-    * Syntax highlighting for log files
-  - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-    * Visual Studio Code plugin that autocompletes filenames
-  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-    * Code formatter using prettier
+- **Remote / SSH**:
   - [Remote SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
     * Open any folder on a remote machine using SSH and take advantage of VS Code's full feature set
   - [Remote SSH - Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
@@ -80,6 +76,13 @@
     * Remotely browse and edit git repositories
   - [shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format)
     * A formatter for shell scripts, Dockerfile, gitignore, dotenv, /etc/hosts, jvmoptions, and other file types
+- **Tools**:
+  - [Intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+    * AI-assisted development
+  - [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
+    * Syntax highlighting for log files
+  - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+    * Visual Studio Code plugin that autocompletes filenames
   - [Stream Deck for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=nicollasr.vscode-streamdeck)
     * Enables Stream Deck integration with Visual Studio Code
   - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
@@ -87,315 +90,642 @@
   - [VSCode Snippets for Ansible](https://marketplace.visualstudio.com/items?itemName=MattiasBaake.vscode-snippets-for-ansible)
     * Provide an automatically build set of snippets for ansible modules
 
-
 ### Extension package names for easy install
 ``` txt
-nur.just-black
-fosshaas.fontsize-shortcuts
-vscode-icons-team.vscode-icons
-dbaeumer.vscode-eslint
-esbenp.prettier-vscode
-quicktype.quicktype
-vunguyentuan.vscode-postcss
+EliverLara.andromeda
+formulahendry.auto-close-tag
+formulahendry.auto-rename-tag
+aaron-bond.better-comments
 streetsidesoftware.code-spell-checker
-yoavbls.pretty-ts-errors
-quicktype.quicktype
-adpyke.codesnap
-rangav.vscode-thunder-client
-DotJoshJohnson.xml
-bradlc.vscode-tailwindcss
-dsznajder.es7-react-js-snippets
-infarkt.css-to-jss
-paulmolluzzo.convert-css-in-js
-styled-components.vscode-styled-components
-Vue.volar
-svelte.svelte-vscode
-Prisma.prisma
-otovo-oss.htmx-tags
+naumovs.color-highlight
+ms-azuretools.vscode-docker
+mikestead.dotenv
+usernamehw.errorlens
+tamasfe.even-better-toml
+miguelsolorio.fluent-icons
+vsls-contrib.gistfs
+bierner.github-markdown-preview
+GitHub.remotehub
+GitLab.gitlab-workflow
+oderwat.indent-rainbow
+VisualStudioExptTeam.vscodeintellicode
+ZainChen.json
+yzhang.markdown-all-in-one
+bierner.markdown-checkbox
+bierner.markdown-footnotes
+shd101wyy.markdown-preview-enhanced
+bierner.markdown-preview-github-styles
 bierner.markdown-mermaid
+DavidAnson.vscode-markdownlint
+PKief.material-icon-theme
+bbenoist.Nix
+IBM.output-colorizer
+christian-kohler.path-intellisense
+esbenp.prettier-vscode
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-ssh-edit
+ms-vscode.remote-server
+ms-vscode-remote.vscode-remote-extensionpack
+ms-vscode.remote-explorer
+ms-vscode.remote-repositories
+foxundermoon.shell-format
+nicollasr.vscode-streamdeck
+wayou.vscode-todo-highlight
+MattiasBaake.vscode-snippets-for-ansible
+redhat.vscode-yaml
 ```
 
 # Settings
-
 ```json
 {
-  "codesnap.backgroundColor": "#000000",
-  "codesnap.containerPadding": "0px",
-  "codesnap.showWindowControls": false,
-  "codesnap.transparentBackground": true,
-  "cSpell.enabled": true,
+  //----- SPELLING
+  "cSpell.userWords": [
+    "Alertmanager",
+    "alertmanagers",
+    "apikey",
+    "arrs",
+    "auditd",
+    "authentification",
+    "authpriv",
+    "autoclean",
+    "autofetch",
+    "autoheal",
+    "autoinstall",
+    "autoload",
+    "autoremove",
+    "BACKDIR",
+    "BACKUPDIR",
+    "Baremetal",
+    "baserow",
+    "Blocklist",
+    "bluez",
+    "BRUTEFORCE",
+    "cdrom",
+    "chezmoi",
+    "cloudbeaver",
+    "cmdline",
+    "codepen",
+    "CODESERVER",
+    "Colours",
+    "compinit",
+    "conflictstyle",
+    "containerd",
+    "containrrr",
+    "coredump",
+    "Corpse's",
+    "cpus",
+    "cputime",
+    "crond",
+    "DARKTABLE",
+    "datacenter",
+    "dbeaver",
+    "Deamon",
+    "dhcpcd",
+    "DLNA",
+    "dockercompose",
+    "DOCKGE",
+    "dockurr",
+    "docuseal",
+    "dotfiles",
+    "DOWNLOADERS",
+    "dpmdashboard",
+    "drawio",
+    "dtoverlay",
+    "dufourpm",
+    "DUPS",
+    "emerg",
+    "ENAB",
+    "Excalidraw",
+    "excludesfile",
+    "EXIF",
+    "EXIFTOOL",
+    "fa-sith",
+    "fab",
+    "faillog",
+    "familydashboard",
+    "flaresolverr",
+    "FPATH",
+    "fullscreen",
+    "gethomepage",
+    "GITDIR",
+    "gitea",
+    "gitpull",
+    "Godaddy",
+    "GOTIFY",
+    "Grafana",
+    "grav",
+    "healthcheck",
+    "HEIFCONVERT",
+    "homelab",
+    "homelabdashboard",
+    "HUSHLOGIN",
+    "inmemory",
+    "insertafter",
+    "Intellicode",
+    "is-danger",
+    "is-small",
+    "jackett",
+    "jdownlaoder",
+    "jdownloader",
+    "journalctl",
+    "kanboard",
+    "Kuma",
+    "lanczos",
+    "librenms",
+    "lineinfile",
+    "localtime",
+    "lockfiles",
+    "LOGDIR",
+    "loglevel",
+    "louislam",
+    "lscr",
+    "lynis",
+    "Matomo",
+    "mautic",
+    "MAXAGE",
+    "mbox",
+    "MEDIADIR",
+    "memlock",
+    "Meslo",
+    "msys",
+    "NEOFETCH",
+    "Netdata",
+    "networktime",
+    "nginxproxymanager",
+    "nodered",
+    "nofile",
+    "NOMATCH",
+    "NSFK",
+    "oneline",
+    "opensearch",
+    "Opensource",
+    "Overseerr",
+    "PGID",
+    "PHOTOPRISM",
+    "PHOTOPRISMDB",
+    "phpmyadmin",
+    "pids",
+    "pihole",
+    "Plex",
+    "portainer",
+    "Premade",
+    "promptinit",
+    "PROMTAIL",
+    "Prowlarr",
+    "PUID",
+    "qbittorrent",
+    "Radarr",
+    "Raspberrypi",
+    "RAWTHERAPEE",
+    "requesterr",
+    "rgba",
+    "ripgrep",
+    "rsyslog",
+    "runc",
+    "sbsdashboard",
+    "Scheme",
+    "Scrollback",
+    "SCRYPTED",
+    "seccomp",
+    "setopt",
+    "shellenv",
+    "SIDB",
+    "SIDEKIQ",
+    "signingkey",
+    "SIGQUIT",
+    "SIGTERM",
+    "siteinspector",
+    "siteinspectordb",
+    "siteinspectorredis",
+    "Sonarr",
+    "Speedof",
+    "speedofme",
+    "speedtest",
+    "spinwheel",
+    "SPROMPT",
+    "stephanedufour",
+    "STORDIR",
+    "strapi",
+    "stylesheet",
+    "sudoer",
+    "sulog",
+    "tagstyle",
+    "Tautulli",
+    "TCPCOMPANION",
+    "themepark",
+    "THEMPARK",
+    "timedatectl",
+    "timeseries",
+    "timesync",
+    "timesyncd",
+    "tinypng",
+    "tmpfs",
+    "Traefik",
+    "tubearchivist",
+    "ulimits",
+    "UNRAID",
+    "unsetopt",
+    "userdel",
+    "USERDIR",
+    "usermod",
+    "userns",
+    "utmp",
+    "uucp",
+    "Ventoy",
+    "WEBDAV",
+    "whisparr",
+    "ytdl",
+    "zabbix",
+    "ZDOTDIR",
+    "ZFRONT",
+    "zfunctions",
+    "ZRAM",
+    "ZSERVER",
+    "zshcompletion",
+    "zstyle"
+  ],
   "cSpell.enableFiletypes": [
-    "mdx"
+    "dockercompose",
+    "dockerfile",
+    "dotenv",
+    "drawio",
+    "properties",
+    "shellscript",
+    "txt",
+    "xml"
   ],
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.detectIndentation": true,
-  "editor.fontFamily": "Anonymous Pro",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 13,
-  "editor.formatOnPaste": false,
-  "editor.inlineSuggest.enabled": true,
-  "editor.lineHeight": 0,
-  "editor.linkedEditing": true,
-  "editor.minimap.enabled": false,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.snippetSuggestions": "top",
-  "editor.suggestSelection": "first",
-  "editor.tabSize": 2,
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [
-      {
-        "scope": [
-          "keyword.operator",
-          "punctuation.separator"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
-      },
-      {
-        "scope": [
-          "comment",
-          "comment.block"
-        ],
-        "settings": {
-          "fontStyle": "italic",
-          "foreground": "#F5F"
-        }
-      },
-      {
-        "name": "envKeys",
-        "scope": "string.quoted.double.env,source.env,constant.numeric.env",
-        "settings": {
-          "foreground": "#19354900"
-        }
-      }
-    ]
-  },
-  "editor.unicodeHighlight.invisibleCharacters": false,
-  "emmet.showAbbreviationSuggestions": false,
-  "eslint.enable": true,
-  "eslint.validate": [
-    "vue",
-    "react",
+  "cSpell.languageSettings": [],
+  "cSpell.language": "en,en-US",
+
+  //----- AUTO-CLOSE
+  "auto-close-tag.SublimeText3Mode": true,
+  "auto-close-tag.activationOnLanguage": [
+    "blade",
+    "cfml",
+    "dockerfile",
+    "ejs",
+    "erb",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "javascript",
+    "javascriptreact",
+    "jinja",
+    "lang-cfml",
+    "liquid",
+    "markdown",
+    "php",
+    "plaintext",
+    "plist",
+    "TOML",
     "typescript",
-    "html",
-    "javascript"
+    "typescriptreact",
+    "vue",
+    "xml",
+    "yaml"
   ],
-  "explorer.openEditors.visible": 1,
-  "extensions.ignoreRecommendations": true,
-  "files.autoSave": "onWindowChange",
+
+  //----- DEBUG CONSOLE
+  "debug.console.fontFamily": "'MesloLGS NF'",
+  "debug.internalConsoleOptions": "neverOpen",
+
+  //----- EDITOR
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.wordWrap": "on",
+  "editor.rulers": [120],
+  "editor.suggestSelection": "first",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorStyle": "underline",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "'MesloLGS NF'",
+  "editor.fontLigatures": false,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.colorDecorators": true,
+  "editor.fontWeight": "400", // Regular
+  "editor.renderControlCharacters": true,
+  "editor.minimap.showSlider": "always",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeLensFontFamily": "'MesloLGS NF'",
+  "editor.codeLensFontSize": 14,
+  "editor.definitionLinkOpensInPeek": true,
+  "editor.guides.bracketPairs": true,
+  "editor.mouseWheelZoom": true,
+  "editor.padding.bottom": 2,
+  "editor.padding.top": 2,
+  "editor.fastScrollSensitivity": 6,
+  "editor.inlayHints.fontFamily": "'MesloLGS NF'",
+  "editor.accessibilityPageSize": 12,
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.linkedEditing": true,
+  "editor.smoothScrolling": true,
+  "editor.formatOnPaste": true,
+  "editor.fontSize": 18,
+
+  //----- EXPLORER
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 5,
+  "explorer.confirmUndo": "light",
+  "explorer.compactFolders": false,
+
+  //----- FILES
+  "files.autoSave": "afterDelay",
+  "files.autoGuessEncoding": true,
+  "files.exclude": {
+    "**/.tmp": true
+  },
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.associations": {
+    "*.cfg": "ini"
+  },
+
+  //----- GIT
   "git.autofetch": true,
-  "git.openRepositoryInParentFolders": "never",
-  "markdown.preview.fontSize": 36,
-  "screencastMode.keyboardOptions": {
-    "showCommandGroups": false,
-    "showCommands": false,
-    "showKeybindings": true,
-    "showKeys": false,
-    "showSingleEditorCursorMoves": true
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.pruneOnFetch": true,
+  "git.timeline.showAuthor": false,
+
+  //----- GITLAB
+  "gitlab.aiAssistedCodeSuggestions.enabled": true,
+  "gitlab.ignoreCertificateErrors": true,
+
+  //----- JSON
+  "json.maxItemsComputed": 2500,
+
+  //----- MARKDOWN
+  "markdown.preview.fontFamily": "'MesloLGS NF'",
+  "markdown.preview.lineHeight": 1.1,
+
+  //----- NPM
+  "npm.enableRunFromFolder": true,
+
+  //----- REMOTE / SSH
+  "remote.SSH.showLoginTerminal": true,
+  "remote.SSH.configFile": "~/.ssh/config",
+  "remote.SSH.defaultExtensions": [
+    "Visual Studio Intellicode",
+    "indent-rainbow",
+    "prettier",
+    "YAML",
+    "Color Highlight"
+  ],
+  "remote.SSH.lockfilesInTmp": true,
+  "remote.SSH.useFlock": false,
+  "remote.SSH.remotePlatform": {
+    "Mac Mini": "macOS",
+    "Ubuntu": "linux",
+    "Docker": "linux"
   },
-  "search.exclude": {
-    "**/*.code-search": true,
-    "**/bower_components": true,
-    "**/node_modules": true
-  },
-  "search.useIgnoreFiles": false,
-  "svelte.enable-ts-plugin": true,
-  "terminal.integrated.fontSize": 14,
+  "remote.SSH.enableDynamicForwarding": false,
+  "remote.SSH.maxReconnectionAttempts": 3,
+  "remote.SSH.suppressWindowsSshWarning": true,
+  "remote.SSH.defaultForwardedPorts": [],
+  "remote.downloadExtensionsLocally": true,
+  "remote.tunnels.alwaysUpdateCLI": true,
+
+  //----- SCM
+  "scm.inputFontFamily": "'MesloLGS NF'",
+  "scm.inputFontSize": 16,
+
+  //----- SETTINGS
+  "color-highlight.matchRgbWithNoFunction": true,
+  "color-highlight.matchWords": true,
+  "material-icon-theme.folders.color": "#e5e5e5",
+  "notebook.markup.fontSize": 14,
+  "search.searchEditor.reusePriorSearchConfiguration": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "settingsSync.ignoredExtensions": [
+    "rxliuli.joplin-vscode-plugin",
+    "ms-azuretools.vscode-docker",
+    "ms-vscode-remote.remote-wsl"
+  ],
+  "update.mode": "start",
   "vsicons.dontShowNewVersionMessage": true,
-  "window.zoomLevel": 4,
-  "workbench.colorTheme": "Just Black",
-  "workbench.editor.labelFormat": "medium",
-  "workbench.editor.showTabs": "none",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.sideBar.location": "right",
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": false,
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  "[handlebars]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+
+  //----- TELEMETRY
+  "redhat.telemetry.enabled": false,
+  "telemetry.telemetryLevel": "off",
+
+  //-----TERMINAL
+  "terminal.integrated.detectLocale": "on",
+  "terminal.integrated.fontFamily": "'MesloLGS NF'",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.letterSpacing": 1.2,
+  "terminal.integrated.lineHeight": 1.1,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontWeightBold": "bold",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorWidth": 1.2,
+  "terminal.integrated.cursorBlinking": false,
+  "terminal.integrated.tabs.hideCondition": "singleTerminal",
+  "terminal.integrated.tabs.showActiveTerminal": "singleTerminalOrNarrow",
+  "terminal.integrated.tabs.showActions": "singleTerminalOrNarrow",
+  "terminal.integrated.tabs.location": "left",
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.gpuAcceleration": "auto",
+  "terminal.integrated.persistentSessionScrollback": 2500,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.defaultLocation": "view",
+  "terminal.integrated.profiles.linux": {
+    "/bin/zsh": {
+      "path": "/bin/zsh",
+      "args": ["-l"]
+    }
   },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.profiles.osx": {
+    "/bin/zsh": {
+      "path": "/bin/zsh",
+      "args": ["-l"]
+    }
   },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell -NoProfile": {
+      "source": "PowerShell"
+    }
   },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.useWslProfiles": true,
+  "terminal.integrated.cwd": "${fileDirname}",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.showExitAlert": true,
+  "terminal.integrated.confirmOnExit": "hasChildProcesses",
+  "terminal.integrated.confirmOnKill": "editor",
+
+  //----- WINDOW
+  "window.newWindowDimensions": "inherit",
+  "window.autoDetectColorScheme": true,
+  "window.titleSeparator": " || ",
+  "window.title": "${activeEditorLong}${separator}${rootPath}${separator}${rootName}",
+  "window.openFoldersInNewWindow": "off",
+
+  //----- WORKBENCH
+  "workbench.startupEditor": "none",
+  "workbench.editorAssociations": {
+    "*.svg": "default"
   },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.panel.defaultLocation": "right",
+  "workbench.enableExperiments": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.reduceMotion": "on",
+  "workbench.colorTheme": "Andromeda Italic Bordered",
+  "workbench.preferredDarkColorTheme": "Andromeda Italic Bordered",
+  "workbench.preferredLightColorTheme": "Visual Studio Light",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.preferHistoryBasedLanguageDetection": true,
+  "workbench.editor.revealIfOpen": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.preferredHighContrastColorTheme": "Andromeda Colorizer",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.editor.closeOnFileDelete": true,
+
+  //----- ZEN MODE
+  "zenMode.centerLayout": false,
+  "zenMode.restore": false,
+  "zenMode.hideLineNumbers": false,
+
+  //----- BETTER COMMENTS EXTENSION
+  "better-comments.highlightPlainText": true,
+  "better-comments.multilineComments": true,
+  "better-comments.tags": [
+    {
+      "tag": "TODO",
+      "color": "#93C572",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "CHECK",
+      "color": "#E49B0F",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "PROBLEM",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    }
+  ],
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
   },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.editor.empty.hint": "hidden",
+
+  //----- INDENT RAINBOW EXTENSION
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.07)",
+    "rgba(127,255,127,0.07)",
+    "rgba(255,127,255,0.07)",
+    "rgba(79,236,236,0.07)"
+  ],
+
+  //---------- EXTENSIONS
+  //----- BETTER TOML EXTENSION
+  "evenBetterToml.formatter.alignComments": true,
+  "evenBetterToml.formatter.alignEntries": true,
+  "evenBetterToml.formatter.allowedBlankLines": 2,
+  "evenBetterToml.formatter.arrayAutoCollapse": true,
+  "evenBetterToml.formatter.arrayAutoExpand": true,
+  "evenBetterToml.formatter.arrayTrailingComma": true,
+  "evenBetterToml.formatter.columnWidth": 80,
+
+  //----- MARKDOWN EXTENSION
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+  "markdown-preview-enhanced.enableHTML5Embed": true,
+  "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
+
+  //----- INTELLISENSE EXTENSION
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "path-intellisense.showHiddenFiles": true,
+
+  //----- UNICODE HIGHLIGHT EXTENSION
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+
+  //----- VSCODE PETS EXTENSION
+  "vscode-pets.throwBallWithMouse": true,
+  "vscode-pets.petSize": "medium",
+  "vscode-pets.petColor": "black",
+
+  //----- DOCKER EXTENSION
+  "docker.networks.sortBy": "Label",
+  "docker.containers.label": "ContainerName",
+  "docker.containers.sortBy": "Label",
+  "docker.images.description": ["CreatedTime", "Tag"],
+  "docker.images.sortBy": "Label",
+  "apc.activityBar": {},
+  "accessibility.signals.lineHasError": {
+    "sound": "off"
   },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "accessibility.signals.lineHasFoldedArea": {
+    "sound": "off"
   },
-  "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "accessibility.signals.lineHasBreakpoint": {
+    "sound": "off"
   },
-  "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode"
+  "accessibility.signals.lineHasInlineSuggestion": {
+    "sound": "off"
   },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "accessibility.signals.terminalQuickFix": {
+    "sound": "off"
   },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "accessibility.signals.onDebugBreak": {
+    "sound": "off"
   },
+  "accessibility.signals.noInlayHints": {
+    "sound": "off"
+  },
+  "accessibility.signals.taskCompleted": {
+    "sound": "off"
+  },
+  "accessibility.signals.taskFailed": {
+    "sound": "off"
+  },
+  "accessibility.signals.notebookCellCompleted": {
+    "sound": "off"
+  },
+  "accessibility.signals.notebookCellFailed": {
+    "sound": "off"
+  },
+  "accessibility.signals.diffLineInserted": {
+    "sound": "off"
+  },
+  "accessibility.signals.diffLineDeleted": {
+    "sound": "off"
+  },
+  "accessibility.signals.diffLineModified": {
+    "sound": "off"
+  },
+  "workbench.activityBar.location": "top",
+  "editor.tabSize": 2,
+  "editor.autoClosingComments": "always",
+  "editor.language.colorizedBracketPairs": [],
+  "editor.lineHeight": 1.1,
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.minimap.enabled": false
 }
 ```
 
-# Keybindings
-
-```json
-[
-  {
-    "key": "cmd+1",
-    "command": "workbench.action.openEditorAtIndex1"
-  },
-  {
-    "key": "ctrl+1",
-    "command": "-workbench.action.openEditorAtIndex1"
-  },
-  {
-    "key": "cmd+2",
-    "command": "workbench.action.openEditorAtIndex2"
-  },
-  {
-    "key": "ctrl+2",
-    "command": "-workbench.action.openEditorAtIndex2"
-  },
-  {
-    "key": "cmd+3",
-    "command": "workbench.action.openEditorAtIndex3"
-  },
-  {
-    "key": "ctrl+3",
-    "command": "-workbench.action.openEditorAtIndex3"
-  },
-  {
-    "key": "cmd+4",
-    "command": "workbench.action.openEditorAtIndex4"
-  },
-  {
-    "key": "ctrl+4",
-    "command": "-workbench.action.openEditorAtIndex4"
-  },
-  {
-    "key": "cmd+5",
-    "command": "workbench.action.openEditorAtIndex5"
-  },
-  {
-    "key": "ctrl+5",
-    "command": "-workbench.action.openEditorAtIndex5"
-  },
-  {
-    "key": "cmd+6",
-    "command": "workbench.action.openEditorAtIndex6"
-  },
-  {
-    "key": "ctrl+6",
-    "command": "-workbench.action.openEditorAtIndex6"
-  },
-  {
-    "key": "cmd+7",
-    "command": "workbench.action.openEditorAtIndex7"
-  },
-  {
-    "key": "ctrl+7",
-    "command": "-workbench.action.openEditorAtIndex7"
-  },
-  {
-    "key": "cmd+8",
-    "command": "workbench.action.openEditorAtIndex8"
-  },
-  {
-    "key": "ctrl+8",
-    "command": "-workbench.action.openEditorAtIndex8"
-  },
-  {
-    "key": "cmd+9",
-    "command": "workbench.action.openEditorAtIndex9"
-  },
-  {
-    "key": "ctrl+9",
-    "command": "-workbench.action.openEditorAtIndex9"
-  },
-  {
-    "key": "ctrl+1",
-    "command": "workbench.action.focusFirstEditorGroup"
-  },
-  {
-    "key": "cmd+1",
-    "command": "-workbench.action.focusFirstEditorGroup"
-  },
-  {
-    "key": "ctrl+3",
-    "command": "workbench.action.focusThirdEditorGroup"
-  },
-  {
-    "key": "cmd+3",
-    "command": "-workbench.action.focusThirdEditorGroup"
-  },
-  {
-    "key": "ctrl+6",
-    "command": "workbench.action.focusSixthEditorGroup"
-  },
-  {
-    "key": "cmd+6",
-    "command": "-workbench.action.focusSixthEditorGroup"
-  },
-  {
-    "key": "ctrl+7",
-    "command": "workbench.action.focusSeventhEditorGroup"
-  },
-  {
-    "key": "cmd+7",
-    "command": "-workbench.action.focusSeventhEditorGroup"
-  },
-  {
-    "key": "ctrl+2",
-    "command": "workbench.action.focusSecondEditorGroup"
-  },
-  {
-    "key": "cmd+2",
-    "command": "-workbench.action.focusSecondEditorGroup"
-  },
-  {
-    "key": "ctrl+4",
-    "command": "workbench.action.focusFourthEditorGroup"
-  },
-  {
-    "key": "cmd+4",
-    "command": "-workbench.action.focusFourthEditorGroup"
-  },
-  {
-    "key": "ctrl+5",
-    "command": "workbench.action.focusFifthEditorGroup"
-  },
-  {
-    "key": "cmd+5",
-    "command": "-workbench.action.focusFifthEditorGroup"
-  },
-  {
-    "key": "ctrl+8",
-    "command": "workbench.action.focusEighthEditorGroup"
-  },
-  {
-    "key": "cmd+8",
-    "command": "-workbench.action.focusEighthEditorGroup"
-  }
-]
-```
-
-## Past Themes
-
-* Original theme I use in some videos:
-  * [Seti-Monokai](https://marketplace.visualstudio.com/items?itemName=SmukkeKim.theme-setimonokai)
-* I used this darker modification of the above theme for a few videos:
-  * [Seti-Black](https://marketplace.visualstudio.com/items?itemName=bobsparadox.seti-black)
