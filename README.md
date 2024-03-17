@@ -1,8 +1,8 @@
-# VSC-Settings
-## Font
+# VSC SETTINGS
+## FONT
 - [MesloLGS NF](https://github.com/fontmgr/MesloLGSNF)
 
-## Extensions
+## EXTENSIONS
 - **Theme**:
   - Theme: [Andromeda (Italic Bordered)](https://marketplace.visualstudio.com/items?itemName=EliverLara.andromeda)
   - File icons: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
@@ -90,7 +90,7 @@
   - [VSCode Snippets for Ansible](https://marketplace.visualstudio.com/items?itemName=MattiasBaake.vscode-snippets-for-ansible)
     * Provide an automatically build set of snippets for ansible modules
 
-### Extension package names for easy install
+### EXTENSION IDs
 ``` txt
 EliverLara.andromeda
 formulahendry.auto-close-tag
@@ -135,7 +135,7 @@ MattiasBaake.vscode-snippets-for-ansible
 redhat.vscode-yaml
 ```
 
-# Settings
+## VSCODE SETTINGS
 ```json
 {
   //----- SPELLING
