@@ -1,69 +1,95 @@
 # VSC-Settings
-# VS Code Settings
-
-# Font
-
-* [Anonymous Pro](https://www.marksimonson.com/fonts/view/anonymous-pro)
-
-## Themes/Color
-
-* [Just Black](https://marketplace.visualstudio.com/items?itemName=nur.just-black)
-  * See [`editor.tokenColorCustomizations`](#settings) in my VS Code settings for a few modifications I make to the theme.
+## Font
+- [MesloLGS NF]([https://www.marksimonson.com/fonts/view/anonymous-pro](https://github.com/fontmgr/MesloLGSNF))
 
 ## Extensions
-
-* Theme / Editor Experience
-  * [FontSize ShortCuts](https://marketplace.visualstudio.com/items?itemName=fosshaas.fontsize-shortcuts)
-    * Change the font size with keyboard shortcuts.
-  * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
-    * Nice / colorful icons for many different file types
-  * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-    * Integrates ESLint JS
-  * [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-    * Automatically format javascript, JSON, CSS, Sass
-  * [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
-    * Auto generate TypeScript (and other languages) types from JSON data., and HTML files.
-  * [PostCSS Intellisense and Highlighting](https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-postcss)
-    * Works better than the other more popular one of a similar name.
-  * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-    * Spell check markdown, comments and variable names.
-  * [Pretty TypeScript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)
-    * Makes TS errors more human readable.
-* Useful Tools
-  * [Paste JSON as Code](https://marketplace.visualstudio.com/items?itemName=quicktype.quicktype)
-    * Auto generate TypeScript (and other languages) types from JSON data.
-  * [Code Snap](https://marketplace.visualstudio.com/items?itemName=adpyke.codesnap)
-    * Take pictures of code with your VS Code Theme / Font settings.
-  * [Thunder Client](https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client)
-    * Make HTTP requests from inside VS Code (similar to Postman / Insomnia).
-* Languages and Libraries
-  * [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
-    * XML Formatting, XQuery, and XPath Tools for Visual Studio Code.
-  * [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
-    * Intelligent Tailwind CSS tooling for VS Code.
-  * React
-    * [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-      * Extensions for React, React-Native and Redux in JS/TS with ES7+ syntax. Customizable. Built-in integration with prettier.
-    * [CSS to JSS](https://marketplace.visualstudio.com/items?itemName=infarkt.css-to-jss)
-      * Convert CSS to JSS
-    * [CSS in JS](https://marketplace.visualstudio.com/items?itemName=paulmolluzzo.convert-css-in-js)
-      * Get syntax highlighting when working with CSS in JS template strings.
-    * [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components)
-      * Syntax highlighting for styled-components.
-  * [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
-    * Language support for Vue 3
-  * [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
-    * Svelte language support for VS Code.
-  * [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)
-    * Adds syntax highlighting, formatting, auto-completion, jump-to-definition and linting for .prisma files.
-  * [htmx-tags](https://marketplace.visualstudio.com/items?itemName=otovo-oss.htmx-tags)
-    * Provides HTMX tag completion in HTML files in VSCode
-  * [Markdown Mermaid Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+- Theme:
+  - Theme: [Andromeda (Italic Bordered)](https://marketplace.visualstudio.com/items?itemName=EliverLara.andromeda)
+  - File icons: [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+  - Product Icons: [Fluent Icons](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons)
+- Editor Experience:
+  - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
+    * Automatically add HTML/XML close tag, same as Visual Studio IDE or Sublime Text
+  - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+    * Auto rename paired HTML/XML tag
+  - [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
+    * Improve your code commenting by annotating with alert, informational, TODOs, and more
+  - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+    * Spelling checker for source code
+  - [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+    * Highlight web colors in your editor
+  - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+    * makes it easy to build, manage, and deploy containerized applications from VSC
+  - [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+    * Improve highlighting of errors, warnings and other language diagnostics
+- Languages and Libraries:
+  - [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
+    * Support for dotenv file syntax
+  - [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
+    * Fully-featured TOML support
+  - [json](https://marketplace.visualstudio.com/items?itemName=ZainChen.json)
+    * Json for Visual Studio Code
+  - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
+    * All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
+  - [Markdown CHeckboxes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-checkbox)
+    * Adds checkbox support to the built-in markdown preview
+  - [Markdown Footnotes](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-footnotesa)
+    * Adds [^footnote] syntax support to VS Code's built-in markdown preview
+  - [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
+    * Markdown Preview Enhanced ported to vscode
+  - [Markdown Preview Github](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
+    * Changes VS Code's built-in markdown preview to match Github's style
+  - [Markdown Mermaid Preview](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
     * View Mermaid diagrams when previewing Markdown.
+  - [Nix](https://marketplace.visualstudio.com/items?itemName=bbenoist.Nix)
+    * Nix language support for Visual Studio Code
+  - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
+    * YAML Language Support by Red Hat, with built-in Kubernetes syntax support
+- Tools:
+  - [Gist Pad](https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs)
+    * Manage your code snippets and developer notes using GitHub Gists and repositories
+  - [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
+    * Changes VS Code's built-in markdown preview to match GitHub
+  - [Github Repositories](https://marketplace.visualstudio.com/items?itemName=GitHub.remotehub)
+    * Remotely browse and edit any GitHub repository
+  - [Gitlab Workflow](https://marketplace.visualstudio.com/items?itemName=GitLab.gitlab-workflow)
+    * Official GitLab-maintained extension for Visual Studio Code with prettier.
+  - [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
+    * Makes indentation easier to read
+  - [Intellicode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
+    * AI-assisted development
+  - [Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+    * Markdown linting and style checking for Visual Studio Code
+  - [Output Colorizer](https://marketplace.visualstudio.com/items?itemName=IBM.output-colorizer)
+    * Syntax highlighting for log files
+  - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+    * Visual Studio Code plugin that autocompletes filenames
+  - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+    * Code formatter using prettier
+  - [Remote SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
+    * Open any folder on a remote machine using SSH and take advantage of VS Code's full feature set
+  - [Remote SSH - Editing Configuration Files](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh-edit)
+    * Edit SSH configuration files
+  - [Remote - Tunnels](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-server)
+    * Connect to a remote machine through a Tunnel
+  - [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
+    * An extension pack that lets you open any folder in a container, on a remote machine, or in WSL and take advantage of VS Code's full feature set
+  - [Remote Explorer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer)
+    * View remote machines for SSH and Tunnels
+  - [Remote Repositories](https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-repositories)
+    * Remotely browse and edit git repositories
+  - [shell-format](https://marketplace.visualstudio.com/items?itemName=foxundermoon.shell-format)
+    * A formatter for shell scripts, Dockerfile, gitignore, dotenv, /etc/hosts, jvmoptions, and other file types
+  - [Stream Deck for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=nicollasr.vscode-streamdeck)
+    * Enables Stream Deck integration with Visual Studio Code
+  - [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+    * highlight TODOs, FIXMEs, and any keywords, annotations...
+  - [VSCode Snippets for Ansible](https://marketplace.visualstudio.com/items?itemName=MattiasBaake.vscode-snippets-for-ansible)
+    * Provide an automatically build set of snippets for ansible modules
+
 
 ### Extension package names for easy install
-
-```
+``` txt
 nur.just-black
 fosshaas.fontsize-shortcuts
 vscode-icons-team.vscode-icons
